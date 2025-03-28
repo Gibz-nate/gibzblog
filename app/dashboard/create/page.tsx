@@ -1,10 +1,10 @@
-"use client"
-import { Button } from "@/components/ui/button"
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { HandleSubmission } from "@/app/actions"
+import { Loading } from "@/components/nav/loadingbutton"
 
 export default function CreateBlog(){
 
@@ -41,7 +41,7 @@ export default function CreateBlog(){
                             <Input name="url" required type="url" placeholder="Image url"/>
                         </div>
 
-                        <Button>Publish Post</Button>
+                        <Loading/>
                     </form>
                 </CardContent>
             </Card>
