@@ -18,7 +18,23 @@ const nextConfig: NextConfig = {
         hostname: "cdn.the-scientist.com",
         protocol: "https",
         port: "",
-      }
+      },
+      {
+        hostname: "quotesbae.com",
+        protocol: "https",
+        port: "",
+      },
+      {
+        hostname: "images.theconversation.com",
+        protocol: "https",
+        port: "",
+      },
+      {
+        hostname: "images.unsplash.com",
+        protocol: "https",
+        port: "",
+      },
+      
     ]
   }
 };
